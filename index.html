@@ -17,7 +17,7 @@
       <div class="statusbar"></div>
 <section class="panel panel-left panel-cover">
 	<div class="block bg-perfil">
-	<i class="icono-perfil">MM</i>
+	<img src="img/Artboard 1.png" class="image-responsive icono-perfil">
 	<b>Marco Martinez</b> <br>
 		marcoamartinez@unitec.edu
 		</div>
@@ -33,7 +33,7 @@
 		  </li>
 		  
 		   <li>
-		   <a class="item-content item-link">
+		   <a class="item-content item-link" href="/likes/">
 			  <div class="item-media"><i class="material-icons">favorite</i>
 			  </div>
 			   <div class="item-inner">Likes</div>
@@ -42,7 +42,7 @@
 		  
 		   <li>
 		   <a class="item-content item-link">
-			  <div class="item-media"><i class="material-icons">friends</i>
+			  <div class="item-media"><i class="material-icons">contacts</i>
 			  </div>
 			   <div class="item-inner">Contacts</div>
 		   </a>
@@ -58,10 +58,10 @@
 		   </a>
 		  </li>
 		    <li class="margen-list">
-		   <a class="item-content item-link">
+		   <a class="item-content item-link" href="/about/">
 			  <div class="item-media"><i class="material-icons">help</i>
 			  </div>
-			   <div class="item-inner"><a href="/about/">About Us</a></div>
+			   <div class="item-inner">About Us</div>
 		   </a>
 		  </li>
 	  </ul>
@@ -80,9 +80,9 @@
             <div class="navbar-inner">
 				<div class="left">
 					<a class="icon-only link panel-open" data-panel="left">
-<i class="icon material-icons"> Menu</i></a>
+<i class="icon material-icons"> home</i></a>
 				</div>
-              <div class="title">Home</div>
+              
 				
 				<div class="align-center">
 				<img src="img/logo.png" class="center" height="40px">
@@ -94,30 +94,38 @@
 				
 				
           </div>
+			   
           </div>
+         
          
           <!-- Scrollable page content -->
           <article class="page-content">
 			  
-			  <section id="sec-slider swiper-init" data-speed="400" data-space-between="40" data-pagination='{"el": ".swiper-pagination"}'>
-				  
-				  
-				  <div class="swiper-container">
-						<!-- Slides wrapper -->
-						<div class="swiper-wrapper">
-							<!-- Slides -->
-							<div class="swiper-slide"><img src="img/slides-01.jpg"   class="img-responsive"></div>
-							<div class="swiper-slide"><img src="img/slides-02.jpg"  class="img-responsive"></div>
-							<div class="swiper-slide"><img src="img/slides-03.jpg"  class="img-responsive"></div>
+			  
+			  <section id="sec-slider">
 
-						</div>
-						<!-- Pagination, if required -->
-						<div class="swiper-pagination"></div>
-					</div>
 				  
+				  
+				  
+				  <!-- Slider container -->
+				<div class="swiper-container swiper-init" data-pagination='{"el": ".swiper-pagination"}' data-speed="400" data-space-between="40" >
+    			<!-- Slides wrapper -->
+    			<div class="swiper-wrapper">
+        		<!-- Slides -->
+       			<div class="swiper-slide"><img src="img/slides-01.jpg" alt="slide-kids" class="img-responsive"></div>
+        		<div class="swiper-slide"><img src="img/slides-02.jpg" alt="slide-men" class="img-responsive"></div>
+       			<div class="swiper-slide"><img src="img/slides-03.jpg" alt="slide=women" class="img-responsive"></div>
+       
+    </div>
+    <!-- Pagination, if required -->
+    <div class="swiper-pagination"></div>
+</div>  
+			  
+			  
 			  </section>
 			
-			  
+		
+			
 			 <section id="sec-category" class="block">
 			  
 				 <div class="block-title">
