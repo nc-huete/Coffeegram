@@ -40,6 +40,16 @@ var myApp = new Framework7({
 		path: '/shops-sps/',
     	url: 'shops-sps.html',
     	name: 'shops-sps',
+  		},
+		{
+		path: '/likes/',
+    	url: 'likes.html',
+    	name: 'likes',
+  		},
+		{
+		path: '/contacts/',
+    	url: 'contacts.html',
+    	name: 'contacts',
   		}
 	]
 });
